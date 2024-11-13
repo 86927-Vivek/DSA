@@ -54,7 +54,8 @@ public class CircularLinkedList {
     }
 
     public void insertBefore(int existingValue, int newValue) {
-        if (isEmpty()) return;
+        if (isEmpty()) 
+        	return;
         if (head.data == existingValue) {
             addFirst(newValue);
             return;
