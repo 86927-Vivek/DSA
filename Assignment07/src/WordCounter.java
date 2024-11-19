@@ -18,6 +18,8 @@ public class WordCounter {
         for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
+        
+        
         scanner.close();
     }
 }
